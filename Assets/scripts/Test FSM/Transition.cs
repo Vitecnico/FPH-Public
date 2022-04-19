@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Demo.FSM
@@ -13,9 +11,9 @@ namespace Demo.FSM
 
         public void Execute(BaseStateMachine stateMachine)
         {
-            if(Decision.Decide(stateMachine) && !(TrueState is RemainInState))
+            if(Decision.Decide(stateMachine) && !(TrueState is RemainState))
                 stateMachine.CurrentState = TrueState;
-            else if(!(FalseState is RemainInState))
+            else if(!(FalseState is RemainState))
                 stateMachine.CurrentState = FalseState;
         }
     }

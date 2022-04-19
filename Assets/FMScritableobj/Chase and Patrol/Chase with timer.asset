@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a86d924df6a5cefaabe8388a7044a08, type: 3}
+  m_Name: Chase with timer
+  m_EditorClassIdentifier: 
+  Decision: {fileID: 11400000, guid: 90db3445bba74c63ab38b2c1705cdd01, type: 2}
+  TrueState: {fileID: 11400000, guid: e01631bf77e2b0709ae71a5cba6e42a3, type: 2}
+  FalseState: {fileID: 11400000, guid: 7cfa450d41e56a4b897f22a3305591a2, type: 2}
